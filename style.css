@@ -94,7 +94,6 @@ img
 }
 
 
-
 article h2{
 	border-bottom: 2px #FECA07 solid;
 	width: 1450px;
@@ -127,18 +126,18 @@ i{
 
 .section_gauche{
 	display: flex;
-	flex-direction: row;	
+	flex-direction: row;
 }
 
 
 .section_droite_1{
-	margin-left: 200px;
+	margin-left: 203px;
 	padding-bottom: 30px;
 }
 
 .section_droite_2{
-	margin-left: 115px;
-	padding-bottom: 30px;
+	margin-left: 118px;
+	padding-bottom: 30px;	
 }
 
 .section_droite_3{
@@ -147,8 +146,8 @@ i{
 }
 
 .section_droite_4{
-	margin-left: 105px;
-	padding-bottom: 30px;
+	margin-left: 104px;
+	padding-bottom: 30px;		
 }
 
 
@@ -185,7 +184,6 @@ footer h2{
 			margin-right: auto;
 			margin-top: auto;
 			margin-bottom: auto;
-
 	}
 
 		header h3{
@@ -297,7 +295,6 @@ footer h2{
 
 		.section_droite_1{
 			margin-left: 0;
-			padding-top: 40px;
 	}
 
 
@@ -307,8 +304,7 @@ footer h2{
 
 		.section_droite_2{
 			margin-left: 0;
-			padding-top: 5px;
-			padding-bottom: 40px;
+			padding-bottom: 70px;
 	}
 
 
@@ -318,11 +314,9 @@ footer h2{
 
 		.section_droite_3{
 			margin-left: 0;
-			padding-top: 5px;
-			padding-bottom: 40px;
+			padding-bottom: 70px;
 			padding-right: 30px;		
 	}
-
 
 
 		#article_4{
@@ -332,9 +326,9 @@ footer h2{
 
 		.section_droite_4{
 			margin-left: 0;
-			padding-top: 5px;
 			padding-bottom: 100px;		
 	}
+
 
 		footer{
 			margin-left: 0;
@@ -353,7 +347,6 @@ footer h2{
 		footer i{
 			margin-right: 10px;
 	}
-
 
 		.recommandations_general{
 			display: flex;
