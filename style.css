@@ -9,6 +9,11 @@ body{
  	margin: auto;
 }
 
+
+	
+		/*header*/
+	
+
 header{
 	margin-left: 18%;	
 	margin-bottom: 20px;	
@@ -25,6 +30,9 @@ header h1 span{
 header h3 span{
 	border-bottom: 2px #FECA07 solid;
 }
+
+
+		/*section*/
 
 
 img
@@ -81,6 +89,9 @@ img
 #espace{
 	padding-top: 134.5%;
 }
+
+
+		/*article_general*/
 
 
 #article_general{
@@ -147,9 +158,11 @@ i{
 
 .section_droite_4{
 	margin-left: 104px;
-	padding-bottom: 30px;		
+	padding-bottom: 20px;		
 }
 
+
+		/*footer*/
 
 
 footer{
@@ -174,192 +187,109 @@ footer h2{
 }
 
 
+		/*responsive*/
 
 
 @media all and (min-width: 300px) and (max-width: 1200px){
-		header{
-			order: 0;
-			font-size: 45px;
-			margin-left: 12%; 
-			margin-right: auto;
-			margin-top: auto;
-			margin-bottom: auto;
+	header{
+		order: 0;
+		margin: auto;
+		padding-left: 0;
+		padding-top: 0;
+		font-size: 20px;
+		text-align: justify;
 	}
 
-		header h3{
-			font-size: 55px;
-	}
 
-		header h3 span{
-			border-bottom: 3px #FECA07 solid;
-	}
-
-		#section{
-			position: initial;
-			width: 100%;
-	}
-
-		img{
-    	margin-top: 20px;	
-    	width: 360px;
-    	height: 360px;
-    	border-radius: 330px;
-	}
-
-		#section h2{
-		background-color: #565346;
+	#section{
+		position: initial;
 		width: 100%;
-	}	
-
-		#section h2{
-			font-size: 45px;
 	}
 
-		#section p{
-			text-align: center;
-			font-size: 25px;
+	img{
+		margin-top: 20px;
+		width: 133px;
+		height: 133px;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-		#espace{
-			padding-top: 0;
+	#section p{
+		text-align: center;
 	}
 
-		.loisirs{
-			border: 1px solid black;
-			font-size: 100px;
-			width: 125px;
-    		height: 125px;
-    		border-radius: 100px;
-    		padding: 8px;
+	#espace{
+		padding-top: 0;
 	}
 
 
-
-		#article_general{
-			margin-left: 0;
+	#article_general{
+		margin-left: 0;
+		padding: 3%;
 	}
 
-		#article_general h2{
-			font-size: 50px;
-			padding-top: 100px; 
+	#article_general h2{
+		font-size: 15px
 	}
 
-		article h2{
-			border-bottom: 3px #FECA07 solid;
-			width: 95%;
+	#article_general h3{
+		font-size: 15px
 	}
 
-		#article_general h3{
-			font-size: 40px;
+	#article_general h4{
+		font-size: 15px;
 	}
 
-		#article_general h4{
-			font-size: 35px;
-	}
-
-		#article_general p{
-			font-size: 25px;
-	}
-
-		#article_general i{
-			margin-right: 10px;
-	}
-
-		.cercle_cercle{
-			padding-right: 10px;
-	}
-
-		.cercle_cercle_blanc{
-			padding-right: 10px;		
-	}
-
-		.cercle{
-			padding-right: 10px;
-	}
-
-		.cercle_blanc{
-			padding-right: 10px;
+	#article_general p{
+		font-size: 15px;
 	}
 
 
 
-		#article_1{
-			margin-left: 0;
-			margin-right: 10px;
+	.section_gauche{
+		display: flex;
+		flex-direction: column;
 	}
 
-		.section_gauche{
-			display: flex;
-			flex-direction: column;
+	.section_droite_1{
+		margin-left: 0;
 	}
 
-		.section_droite_1{
-			margin-left: 0;
+	.section_droite_2{
+		margin-left: 0;
 	}
 
-
-		#article_2{
-			margin-left: 0;
+	.section_droite_3{
+		margin-left: 0;
 	}
 
-		.section_droite_2{
-			margin-left: 0;
-			padding-bottom: 80px;
+	.section_droite_4{
+		margin-left: 0;
 	}
 
 
-		#article_3{
-			margin-left: 0;
+	footer{
+		margin-left: 0;
+		padding-left: 3%;
 	}
 
-		.section_droite_3{
-			margin-left: 0;
-			padding-bottom: 80px;
-			padding-right: 30px;		
+	footer h2{
+		font-size: 15px;
 	}
 
-
-		#article_4{
-			margin-left: 0;
-			padding-right: 30px;
+	footer h4{
+		font-size: 15px;
 	}
 
-		.section_droite_4{
-			margin-left: 0;
-			padding-bottom: 100px;		
+	.recommandations_general{
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
 	}
 
-
-		footer{
-			margin-left: 0;
+	.section_droite_5{
+		margin-left: 0;
+		padding-top: 20px;
 	}
-
-		footer h2{
-			border-bottom: 3px #FECA07 solid;
-			width: 95%;
-			font-size: 50px;
-	}	
-
-		footer h4{
-			font-size: 35px;
-	}
-
-		footer i{
-			margin-right: 10px;
-	}
-
-		.recommandations_general{
-			display: flex;
-			flex-direction: column;
-			padding-top: 5px;
-			font-size: 25px;
-	}
-
-		.section_droite_5{
-			margin-left: 0;
-			padding-top: 40px;
-	}
-}	
-
-
-
+}
