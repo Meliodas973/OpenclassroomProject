@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 #page{	
@@ -144,24 +145,28 @@ i{
 
 }
 
+.section_gauche p{
+	flex: 1;
+}
+
+.section_gauche div{
+	flex: 3;
+}
+
 
 .section_droite_1{
-	margin-left: 205px;
 	padding-bottom: 30px;
 }
 
 .section_droite_2{
-	margin-left: 115px;
 	padding-bottom: 30px;		
 }
 
 .section_droite_3{
-	margin-left: 140px;
 	padding-bottom: 30px;	
 }
 
 .section_droite_4{
-	margin-left: 104px;
 	padding-bottom: 20px;		
 }
 
@@ -186,8 +191,13 @@ footer h2{
 	display: flex;
 	flex-direction: row;
 }
+
+.recommandations_general div{
+	flex: 1;
+}
+
 .section_droite_5{
-	margin-left: 122px;
+	flex: 4;
 }
 
 
