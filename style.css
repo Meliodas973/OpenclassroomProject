@@ -197,7 +197,7 @@ footer h2{
 }
 
 .section_droite_5{
-	flex: 4;
+	flex: 3;
 }
 
 
@@ -208,7 +208,7 @@ footer h2{
 
 @media all and (min-width: 300px) and (max-width: 1200px){
 	header{
-		order: 0;
+		order: 0; 
 		margin: auto;
 		padding-left: 0;
 		padding-top: 0;
@@ -219,6 +219,7 @@ footer h2{
 
 
 		/*responsive section*/
+
 
 
 	#section{
