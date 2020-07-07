@@ -10,7 +10,6 @@ body{
  	margin: auto;
 }
 
-
 	
 		/*header*/
 	
@@ -40,8 +39,7 @@ header h2{
 		/*section*/
 
 
-img
-{
+img{
 	width: 150px;
     height: 150px;
     border-radius: 200px;
@@ -175,7 +173,6 @@ i{
 
 
 footer{
-
 	margin-bottom: 30px;
 	margin-left: 18%;	
 	order: 3;
@@ -217,9 +214,7 @@ footer h2{
 	}
 
 
-
 		/*responsive section*/
-
 
 
 	#section{
@@ -243,7 +238,6 @@ footer h2{
 	#espace{
 		padding-top: 0;
 	}
-
 
 
 		/*responsive article_general*/
