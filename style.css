@@ -89,7 +89,7 @@ img{
 }
 
 #espace{
-	padding-top: 150%;
+	padding-top: 127%;
 }
 
 
@@ -107,7 +107,7 @@ img{
 }
 
 
-article h2{
+#article_general h2{
 	border-bottom: 2px #FECA07 solid;
 	width: 97%;
 }
@@ -168,21 +168,6 @@ i{
 	padding-bottom: 20px;		
 }
 
-
-		/*footer*/
-
-
-footer{
-	margin-bottom: 30px;
-	margin-left: 18%;	
-	order: 3;
-	padding-left: 50px;
-}
-
-footer h2{
-	border-bottom: 2px #FECA07 solid;
-	width: 97%;	
-}
 
 .recommandations_general{
 	display: flex;
