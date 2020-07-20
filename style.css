@@ -275,18 +275,6 @@ i{
 		/*responsive footer*/
 
 
-	footer{
-		margin-left: 0;
-		padding: 3%;
-	}
-
-	footer h2{
-		font-size: 15px;
-	}
-
-	footer h4{
-		font-size: 15px;
-	}
 
 	.recommandations_general{
 		display: flex;
